@@ -2,7 +2,7 @@ export const GAMES_OBJ = [
     {
         id: 0,
         featured: true,
-        image: "assets/images/settlers.jpg",
+        image: "components/images/settlers.jpg",
         quantity: "3",
         name: "Settlers of Catan",
         numPlayers: "3-6",
@@ -12,7 +12,7 @@ export const GAMES_OBJ = [
     {
         id: 31,
         featured: true,
-        image: "assets/images/photosynthesis.jpg",
+        image: "components/images/photosynthesis.jpg",
         quantity: "2",
         name: "Photosynthesis",
         numPlayers: "2-4",
@@ -22,7 +22,7 @@ export const GAMES_OBJ = [
     {
         id: 38,
         featured: true,
-        image: "assets/images/houseonhill.jpg",
+        image: "components/images/houseonhill.jpg",
         quantity: "3",
         name: "Betrayal at House on the Hill",
         numPlayers: "3-6",
@@ -74,17 +74,17 @@ export const GAMES_OBJ = [
         featured: false,
         image: "",
         quantity: "25",
-        name: "D&amp;D Player's Handbook",
+        name: "D&D Player's Handbook",
         numPlayers: "2+",
         elemId: "dndphb",
-        description: "The Player's Handbook is a guide for Player Characters in the world famous game Dungeons &amp; Dragons. Every D&amp;D nerd's go to for rules reference and character creation."
+        description: "The Player's Handbook is a guide for Player Characters in the world famous game Dungeons & Dragons. Every D&D nerd's go to for rules reference and character creation."
     },
     {
         id: 6,
         featured: false,
         image: "",
         quantity: "10",
-        name: "D&amp;D Dungeon Master's Guide",
+        name: "D&D Dungeon Master's Guide",
         numPlayers: "2+",
         elemId: "dnddmg",
         description: "The Dungeon Master's Guide is a guide for the Dungeon Master or DM of your D&D game. It can help with preparing a campaign and setting up encounters for your players."
@@ -94,17 +94,17 @@ export const GAMES_OBJ = [
         featured: false,
         image: "",
         quantity: "8",
-        name: "D&amp;D Monster Manual",
+        name: "D&D Monster Manual",
         numPlayers: "2+",
         elemId: "dndmm",
-        description: "The Monster Manual provides stat sheets for most of the monsters and creatures used in a typical D&amp;D campaign."
+        description: "The Monster Manual provides stat sheets for most of the monsters and creatures used in a typical D&D campaign."
     },
     {
         id: 8,
         featured: false,
         image: "",
         quantity: "3",
-        name: "D&amp;D Guildmaster's Guide to Ravnica",
+        name: "D&D Guildmaster's Guide to Ravnica",
         numPlayers: "2+",
         elemId: "dndrav",
         description: "The Guildmaster's Guide to Ravnica is a reference for the plane of Ravnica and the guilds that inhabit the land. Based on a place in the famous deckbuilding game Magic: The Gathering."
@@ -114,17 +114,17 @@ export const GAMES_OBJ = [
         featured: false,
         image: "",
         quantity: "4",
-        name: "D&amp;D Volo's Guide to Monsters",
+        name: "D&D Volo's Guide to Monsters",
         numPlayers: "2+",
         elemId: "dndvolo",
-        description: "Volo's Guide is a guide for additional monsters and beasts in the D&amp;D world. Similar to the Monster Manual but has even more creepy crawlies for you to add to your campaign."
+        description: "Volo's Guide is a guide for additional monsters and beasts in the D&D world. Similar to the Monster Manual but has even more creepy crawlies for you to add to your campaign."
     },
     {
         id: 10,
         featured: false,
         image: "",
         quantity: "5",
-        name: "D&amp;D Xanathar's Guide to Everything",
+        name: "D&D Xanathar's Guide to Everything",
         numPlayers: "2+",
         elemId: "dndxana",
         description: "Xanathar's Guide is reference for additional play options that don't appear in the Player's Handbook or Dungeon Master's Guide. Providing additional spells, character options and even more Dungeon Master tools."
@@ -134,7 +134,7 @@ export const GAMES_OBJ = [
         featured: false,
         image: "",
         quantity: "3",
-        name: "D&amp;D Mordenkainen's Tome of Foes",
+        name: "D&D Mordenkainen's Tome of Foes",
         numPlayers: "2+",
         elemId: "dndmorden",
         description: "Mordenkainen's provides a reference for Dungeon Masters to add non-monster foes to your campaign."
@@ -144,7 +144,7 @@ export const GAMES_OBJ = [
         featured: false,
         image: "",
         quantity: "2",
-        name: "D&amp;D Curse of Strahd",
+        name: "D&D Curse of Strahd",
         numPlayers: "2+",
         elemId: "dndstrahd",
         description: "Curse of Strahd is an extended campaign book. Providing a pre-written campaign to take player characters from level 1 to about level 10. Very helpful for first time Dungeon Masters"
@@ -154,7 +154,7 @@ export const GAMES_OBJ = [
         featured: false,
         image: "",
         quantity: "2",
-        name: "D&amp;D Tomb of Annihilation",
+        name: "D&D Tomb of Annihilation",
         numPlayers: "2+",
         elemId: "dndtoa",
         description: "Tomb of Annihilation is an extended campaign book. Providing a pre-written campaign to run player characters through. Very helpful for first time Dungeon Masters"

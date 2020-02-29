@@ -3,10 +3,18 @@ export const FOOD_DRINKS = {
         {
             id: 0,
             featured: true,
-            name: "Fried pickles",
-            ingredients: "Pickles, Breading, Cooked in Peanut Oil",
+            name: "Fried Pickles",
+            ingredients: "Pickles, Batter, Breading, Cooked in Peanut Oil",
             price: "$5.50",
-            image: "assets/images/fried_pickles.jpg"
+            image: "components/images/fried_pickles.jpg"
+        },
+        {
+            id: 1,
+            featured: false,
+            name: "Basket of Fries",
+            ingredients: "Potatoes, fried, then salted.",
+            price: "$3.00",
+            image: ""
         }
     ],
     drinks: [
@@ -16,7 +24,7 @@ export const FOOD_DRINKS = {
             name: "Screwdriver",
             ingredients: "Vodka and Orange Juice",
             price: "$4.00",
-            image: "assets/images/screwdriver.jpg"
+            image: "components/images/screwdriver.jpg"
         },
         {
             id: 1,
@@ -40,11 +48,7 @@ export const FOOD_DRINKS = {
             name: "Beer",
             ingredients: "Beer",
             price: "$4.50",
-            image: "assets/images/drinks.jpg"
+            image: "components/images/drinks.jpg"
         }
-    ],
-    homeDescriptions: {
-        drinks: "With a fully stocked bar and a wide range of wines and beers, we can surely quench your game night thirst. If you're feeling extra adventerous try one of our themed drinks!",
-        food: "All kinds of gaming snacks and appetizers for you and your friends to enjoy!"
-    }
+    ]
 }
